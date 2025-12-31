@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+header {
+    height: 70px;
+    width: 100vw;
+    top: 0px;
+    z-index: 2;
+    background-color: black;
+    position: fixed;
+    
+}
+.a {
+    font-size: 45px;
+    color: white;
+    left: 90px;
+    top: 5px;
+}
+.classs {
+    height: 65px;
+    width: 395px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    left: 12px;
+    display: inline-block;
+
+}
+
+
+
+html, body {
+    /* because at right side there was some space are left 
+    so adjust the content along x axis and use hidden because  
+    to remove that space */
+    overflow-x: hidden;
+
+    height: 500vh;
+    width: 100%;
+
+}
+/*means we create empty box before body content 
+and put background image in it andb make it seprate from body content 
+*/
+body::before {
+  content: "";
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  background-image: url('./PULSESMAIN.PNG');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+
+
+.main {
+
+    height: 200vh;
+    width: 80vw;
+    top: 70px;
+    left: 170px;
+    border-radius: 40px;
+    
+}
+
+
+
+.img1{
+    width: 1280px;
+    height: 550px;
+    border-radius: 30px;
+    border: 7px solid black;
+    box-shadow: 0 14px 24px black;
+}
+
+
+
+.types1  {
+    height: 80px;
+    width: 1280px;
+    top: 100px;
+    border: 7px solid black;
+    background-color: rgb(247, 84, 247);
+}
+.type1 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:550px;
+    bottom: 1px;
+    color: white;
+    font-style: oblique;
+    font-weight: 900;
+    
+}
+
+
+.lentils {
+    height: 400px;
+    width: 95vw;
+    top: 200px;
+    right: 105px;
+
+}
+.lentils1 {
+    height: 300px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    right: 22px;
+    background-color: white;
+}
+.lentils1:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.RedLentils {
+    background-image: url("./MANSOORDAL.png");
+    background-size: 255px 300px;
+}
+.GreenLentils {
+    background-image: url("./GREENLENTILS.png");
+    background-size: 255px 300px;
+}
+.BrownLentils {
+    background-image: url("./BRWONLENTILS.PNG");
+    background-size: 255px 300px;
+}
+.FrenchGreenLentils {
+    background-image: url("./FRENCHLENTILS.png");
+    background-size: 255px 300px;
+}
+.BlackLentils {
+    background-image: url("./BLACKLENTILS.png");
+    background-size: 255px 300px;
+}
+
+.lentilss {
+    right: 95px;
+    margin: 20px;
+    bottom: 270px;
+    height: 10px;
+}
+.lentils2 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 117px;
+    background-color: rgb(107, 235, 255);
+}
+.lentils2:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+
+
+
+
+
+.types2  {
+    height: 80px;
+    width: 1280px;
+    bottom:  70px;
+    border: 7px solid black;
+    background-color: rgb(247, 84, 247);
+    left: 170px;
+}
+.type2 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:500px;
+    bottom: 1px;
+    color: white;
+    font-style: oblique;
+    font-weight: 900;
+    
+}
+.ChickPeas {
+    height: 400px;
+    width: 95vw;
+    bottom: 100px;
+    right: 105px;
+
+}
+.lentils3 {
+    height: 300px;
+    width: 555px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 1px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 310px;
+    background-color: white;
+    top: 120PX;
+}
+.lentils3:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.DesiChickpeas {
+    background-image: url("./DESICHICKPEAS.png");
+    background-size: 555px 350px ;
+}
+.KabuliChickpeas {
+    background-image: url("./KABULICHICKPEAS.png");
+    background-size: 555px 350px ;
+}
+.ChickPeass {
+    right: 20px;
+    margin: 20px;
+    bottom: 220px;
+    height: 10px;
+
+}
+.lentils4 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 170px;
+    left: 207px;
+    background-color: rgb(107, 235, 255);
+}
+.lentils4:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+
+
+
+.types3  {
+    height: 80px;
+    width: 1280px;
+    top:  150px;
+    border: 7px solid black;
+    background-color: rgb(247, 84, 247);
+    left: 170px;
+}
+.type3 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:550px;
+    bottom: 1px;
+    color: white;
+    font-style: oblique;
+    font-weight: 900;
+    
+}
+.Beans {
+    height: 400px;
+    width: 95vw;
+    top: 150px;
+    right: 105px;
+}
+.Beans1 {
+    height: 300px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    margin-top: 140px;
+    left : 152px;
+    
+    background-color: white;
+}
+.Beans1:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.Beanss {
+    right: 20px;
+    margin: 20px;
+    bottom: 220px;
+    height: 10px;
+}
+.Beans21 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 47px;
+    top: 400px;
+    background-color: rgb(107, 235, 255);
+}
+.Beans21:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.Beans22 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 47px;
+    top: 720px;
+    background-color: rgb(107, 235, 255);
+}
+.Beans22:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.Beans23 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 47px;
+    top: 1050px;
+    background-color: rgb(107, 235, 255);
+}
+.Beans23:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.Kbeans {
+    background-image: url("./KBEANS.png");
+    background-size: cover;
+}
+.Bbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}.Bebeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}.Nbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}.Pbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.GNbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Cbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Lbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Mbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Hgbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+
+.Sbeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Abeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+.Babeans {
+    background-image: url("./");
+    background-size: 255px 100px;
+}
+
+
+
+.peasmain {
+    top: 1400px;
+}
+.types4  {
+    height: 80px;
+    width: 1280px;
+    bottom:  70px;
+    border: 7px solid black;
+    background-color: rgb(247, 84, 247);
+    left: 170px;
+}
+.type4 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:500px;
+    bottom: 1px;
+    color: white;
+    font-style: oblique;
+    font-weight: 900;
+    
+}
+.PigeonPeas  {
+    height: 400px;
+    width: 95vw;
+    bottom: 100px;
+    right: 105px;
+
+}
+.Peas {
+    height: 300px;
+    width: 555px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 1px white;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    left: 310px;
+    background-color: white;
+    top: 120PX;
+}
+.Peas:hover {
+    box-shadow: 0 0 15px 15px white;
+}
+.ToorDal {
+    background-image: url("./.png");
+    background-size: 555px 350px ;
+}
+.TuvarDal {
+    background-image: url("./.png");
+    background-size: 555px 350px ;
+}
+.PigeonPeass  {
+    right: 20px;
+    margin: 20px;
+    bottom: 220px;
+    height: 10px;
+
+}
+.Peas1 {
+    height: 100px;
+    width: 255px;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    box-shadow: 0 0 24px 2px white;
+    transition: box-shadow 0.3s ease;
+    margin: 170px;
+    left: 207px;
+    background-color: rgb(107, 235, 255);
+}
+.Peas1:hover {
+    box-shadow: 0 0 15px 15px white;
+}

@@ -1,0 +1,354 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 233, 233);
+    
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.store {
+    height: 70px;
+    width: 100vw;
+    border: 2px solid black;
+    position: fixed;
+    z-index: 5;
+    background-color: skyblue;
+    margin: 0;
+}
+.h1 {
+    color: black;
+    border: skyblue;
+    font-size: 40px;
+    position: relative;
+    left: 600px;
+    top: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+header {
+    height: 70px;
+    width: 100vw;
+    position: relative;
+    border: 2px solid white;
+    top: 70px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    
+}
+.classs {
+    height: 70px;
+    width: 395px;
+    border: 2px solid white;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+}
+.h {
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.a {
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.main { 
+    height: 490vh;
+    width: 75vw;
+    left: 220px;
+    top: 150px;
+    position: relative;
+    background-color: lavenderblush;
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.image1 {
+    background-color: aliceblue;
+}
+img {
+    height: 510px;
+    width: 1205px;
+    right:1px;
+    position: relative;
+    bottom: 2px;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.class1 {
+    height: 190px;
+    width: 400px;
+    top: 30px;
+    position: relative;
+    right: 1px;
+    background-color: lavenderblush;
+    margin-left: 10px;
+}
+.heading1 {
+    left: 5px;
+    top: 2px;
+    position: relative;
+    background-color: lavenderblush;
+
+}
+.p1{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 9px;
+    position: relative;
+    background-color: lavenderblush;
+    top: 3px;
+
+}
+.bb1 {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px ;
+    top: 40px;
+    left: 13px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(67, 58, 58);
+}
+.ww1 {
+    font-size: 35px;
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+    left: 11px;
+    top: 1px;
+    position: relative;
+}
+.aa1 {
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+}
+
+
+
+
+.class2 {
+    height: 200px;
+    width: 400px;
+    bottom: 160px;
+    left: 420px;
+    position: relative;
+    background-color: lavenderblush;
+}
+.heading2 {
+    left: 15px;
+    background-color: lavenderblush;
+    position: relative;
+}
+.p2{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 9px;
+    position: relative;
+    background-color: lavenderblush;
+}
+.bb2 {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px ;
+    top: 40px;
+    left: 13px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(67, 58, 58);
+}
+.ww2 {
+    font-size: 35px;
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+    left: 11px;
+    top: 1px;
+    position: relative;
+}
+.aa2 {
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+}
+
+
+
+
+.class3 {
+    height: 200px;
+    width: 370px;
+    bottom: 335px;
+    position: relative;
+    left: 814px;
+    background-color: lavenderblush;
+    margin-right: 10px;
+}
+.heading3 {
+    left: 10px;
+    bottom: 25px;
+    position: relative;
+    background-color: lavenderblush;
+
+}
+.p3{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 10px;
+    position: relative;
+    background-color: lavenderblush;
+}
+.bb3 {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px ;
+    top: 40px;
+    left: 13px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(67, 58, 58);
+}
+.ww3 {
+    font-size: 35px;
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+    left: 11px;
+    top: 1px;
+    position: relative;
+}
+.aa3 {
+    color: lavenderblush;
+    background-color: rgb(67, 58, 58);
+}
+
+
+
+
+.center1 {
+    bottom: 172px;
+    left: 70px;
+    height: 350px;
+    position: relative;
+    width: 490px;
+    border-radius: 40px;
+   border: 1px solid black;
+   box-shadow: 0 14px 24px rgba(0, 0, 0, 0.3);
+   transition: box-shadow 0.3s ease;
+}
+.center1:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+}
+.center2 {
+    bottom: 170px;
+    left: 150px;
+    height: 350px;
+    width: 490px;
+    position: relative;
+    border-radius: 40px;
+    border: 1px solid black;
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.3);
+   transition: box-shadow 0.3s ease;
+}
+.center2:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.sentence1 {
+   background-color: #5E4B8B; 
+   position: relative;
+   left: 20px;
+   top: 20px;
+   color: #fff;
+}
+.sentence {
+    height: 100px;
+    width: 650px;
+    bottom: 100px;
+    margin-left: 10px;
+    font-size: 50px;
+    border-radius: 40px;
+    background-color: #5E4B8B;
+    border: 2px solid black;
+    
+
+} 
+.Welcome {
+    background-color:#5E4B8B;
+    color: #fff;
+
+}
+
+
+.horizontal2 {
+    right: 1px;
+    width: 710px;
+    bottom: 50px;
+}
+
+.paragraph {
+    height: 80px;
+    width: 700px;
+    right: 10px;
+    background-color: lavenderblush;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.paragraph1 {
+    left:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: lavenderblush;
+    bottom: 40px;
+
+}
+
+.image2 {
+    height: 900px;
+    left: 790px;
+    width: 400px;
+    bottom: 200px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.3);
+   transition: box-shadow 0.3s ease;
+}
+.image2:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+footer {
+    height: 11vh;
+    width: 100vw;
+    bottom: 2px solid black;
+    background-color: black;
+    position: relative;
+    top: 508px;
+
+}
